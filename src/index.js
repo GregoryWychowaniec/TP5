@@ -2,7 +2,7 @@ require("dotenv").config();
 import express from "express";
 import path from "path";
 import morgan from "morgan";
-import indexRouter from "./controllers/index";
+import indexRouter from "./controllers";
 
 const app = express();
 
