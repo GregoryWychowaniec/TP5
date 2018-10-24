@@ -7,11 +7,11 @@
 {
     "nom":"7 fromages",
     "prix":17,
-    "ingredients":["crème fraiche","cantal"]
+    "ingredients":["crème fraiche","cantal","salers"]
 },
 {
     "nom":"raclette",
     "prix":22,
-    "ingredients":["patate","saint nectaire"]
+    "ingredients":["patate","saint nectaire","charcuterie"]
 }
 ]}

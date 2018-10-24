@@ -21,13 +21,9 @@
     "supertest": "^3.3.0"
   },
   "scripts": {
-    "start": "babel-watch src/index.js -w src/views",
+    "start": "babel-watch src/index.js -w src/views -w src/storage",
     "test": "npm run jest",
-    "jest": "jest --coverage",
-    "isima-install": "rm -f package-lock.json && npm install --no-bin-links",
-    "isima-start": "./node_modules/babel-watch/babel-watch.js src/index.js -w src/views",
-    "isima-test": "npm run isima-jest",
-    "isima-jest": "./node_modules/jest/bin/jest.js --coverage"
+    "jest": "jest --coverage **/__tests__/*.test.js"
   },
   "jest": {
     "testEnvironment": "node",
