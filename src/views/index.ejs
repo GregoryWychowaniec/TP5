@@ -33,6 +33,32 @@
 
       <!--   Icon Section   -->
       <div class="row">
+
+      <% for(var i=0; i<pizza.length; i++){ %>
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><img class="responsive-img" src="https://commande.dominos.fr/ManagedAssets/FR/product/PPEP/FR_PPEP_fr_hero_2762.png?v207514802"/></h2>
+            <h5 class="center">
+              <%= pizza[i].nom %>
+            </h5>
+            
+            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.
+              <br>
+              <i class="material-icon small right">add</i>
+            </p>
+          </div>
+          
+        </div>
+     <% }%>
+
+      
+
+
+
+
+
+
+
         <div class="col s12 m4">
           <div class="icon-block">
             <h2 class="center light-blue-text"><img class="responsive-img" src="https://commande.dominos.fr/ManagedAssets/FR/product/PPEP/FR_PPEP_fr_hero_2762.png?v207514802"/></h2>
