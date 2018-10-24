@@ -1,0 +1,17 @@
+{"pizza":[
+{
+    "nom":"4 fromages",
+    "prix":12,
+    "ingredients":["tomate","salade","oignons"]
+},
+{
+    "nom":"7 fromages",
+    "prix":17,
+    "ingredients":["crème fraiche","cantal","salers"]
+},
+{
+    "nom":"raclette",
+    "prix":22,
+    "ingredients":["patate","saint nectaire","charcuterie"]
+}
+]}
