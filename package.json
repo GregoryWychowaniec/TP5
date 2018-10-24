@@ -23,7 +23,11 @@
   "scripts": {
     "start": "babel-watch src/index.js -w src/views",
     "test": "npm run jest",
-    "jest": "jest --coverage **/__tests__/*.test.js"
+    "jest": "jest --coverage",
+    "isima-install": "rm -f package-lock.json && npm install --no-bin-links",
+    "isima-start": "./node_modules/babel-watch/babel-watch.js src/index.js -w src/views",
+    "isima-test": "npm run isima-jest",
+    "isima-jest": "./node_modules/jest/bin/jest.js --coverage"
   },
   "jest": {
     "testEnvironment": "node",
